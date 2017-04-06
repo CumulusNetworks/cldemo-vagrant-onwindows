@@ -34,16 +34,21 @@ This article is intended to show how to setup a simulation environment on a wind
 Install VirtualBox, Git, and Vagrant tools on the machine.  This will require admin privileges on the server as well as a reboot.
 
 ### **Installing Virtualbox**
-1. After downloading Virtualbox launch the installer
+
+1. After downloading Virtualbox launch the installer.
+
 ![vbox_step1](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox01.png?raw=true)
 
-2. This guide will use the default installation with USB support, Virtual Networking, and Python support
+2. This guide will use the default installation with USB support, Virtual Networking, and Python support.
+
 ![vbox_step2](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox02.png?raw=true)
 
 3.  Virtualbox will install Virtual networking drivers and a new virtual ethernet adapter.
+
 ![vbox_step3](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox04.png?raw=true)
 
 4. Click through the next few screens with the defaults to start and complete the installation.
+
 ![vbox_step4](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox07.png?raw=true)
 VirtualBox should now be installed on the server and you can create/delete VMs on the new hypervisor.
 
