@@ -9,7 +9,16 @@ This article is intended to show how to setup a simulation environment on a wind
 
 ## Table of contents
 
-[TOC]
+- [VX Simulation on Windows](#)
+	- [Table of contents](#)
+		- [Installing Virtualbox](#)
+		- [Installing Git](#)
+		- [Installing Vagrant](#)
+		- [Deploy the cldemo-vagrant VMs](#)
+		- [Manage the cldemo-vagrant VMs](#)
+			- [Connecting to the Console with the VirtualBox GUI](#)
+			- [Connecting to the VMs with SSH](#)
+		- [More about Vagrant](#)
 
 
 ##**Prerequisites**
