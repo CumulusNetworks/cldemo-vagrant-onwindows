@@ -7,18 +7,15 @@ This article is intended to show how to setup a simulation environment on a wind
 ![Reference Topology](https://github.com/CumulusNetworks/cldemo-vagrant/raw/master/cldemo_topology.png)
 
 
-## Table of contents
-
-- [VX Simulation on Windows](#)
-	- [Table of contents](#)
-		- [Installing Virtualbox](#)
-		- [Installing Git](#)
-		- [Installing Vagrant](#)
-		- [Deploy the cldemo-vagrant VMs](#)
-		- [Manage the cldemo-vagrant VMs](#)
-			- [Connecting to the Console with the VirtualBox GUI](#)
-			- [Connecting to the VMs with SSH](#)
-		- [More about Vagrant](#)
+	- [Table of contents]()
+		- [Installing Virtualbox](#Installing Virtualbox)
+		- [Installing Git](#Installing Git)
+		- [Installing Vagrant](#Installing Vagrant)
+		- [Deploy the cldemo-vagrant VMs](#Deploy the cldemo-vagrant VMs)
+		- [Manage the cldemo-vagrant VMs](#Manage the cldemo-vagrant VMs)
+			- [Connecting to the Console with the VirtualBox GUI](#Connecting to the Console with the VirtualBox GUI)
+			- [Connecting to the VMs with SSH](#onnecting to the VMs with SSH)
+		- [More about Vagrant](#More about Vagrant)
 
 
 ##**Prerequisites**
