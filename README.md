@@ -8,13 +8,13 @@ This article is intended to show how to setup a simulation environment on a wind
 
 
 - [Table of contents](#)
-	- [Installing Virtualbox](#Installing Virtualbox)
-	- [Installing Git](#Installing Git)
-	- [Installing Vagrant](#Installing Vagrant)
-	- [Deploy the cldemo-vagrant VMs](#Deploy the cldemo-vagrant VMs)
-	- [Manage the cldemo-vagrant VMs](#Manage the cldemo-vagrant VMs)
-		- [Connecting to the Console with the VirtualBox GUI](#Connecting to the Console with the VirtualBox GUI)
-		- [Connecting to the VMs with SSH](#onnecting to the VMs with SSH)
+	- [Installing Virtualbox](#installing-virtualbox)
+	- [Installing Git](#installing-git)
+	- [Installing Vagrant](#installing-vagrant)
+	- [Deploy the cldemo-vagrant VMs](#deploy-the-cldemo-vagrant-vms)
+	- [Manage the cldemo-vagrant VMs](#manage-the-cldemo-vagrant-vms)
+		- [Connecting to the Console with the VirtualBox GUI](#connecting-to-the-console-with-the-virtualBox-gui)
+		- [Connecting to the VMs with SSH](#connecting-to-the-vms-with-ssh)
 	- [More about Vagrant](#More about Vagrant)
 
 
