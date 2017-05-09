@@ -28,7 +28,7 @@ This article is intended to show how to setup a simulation environment on a wind
 
 ##**Tools used**
 
-- VirtualBox [-Version 8.1.18 Installer-](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)  or [(Alternate version downloads)](https://www.virtualbox.org/wiki/Downloads)
+- VirtualBox [-Version 5.1.18 Installer-](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)  or [(Alternate version downloads)](https://www.virtualbox.org/wiki/Downloads)
 - Git [-Version 2.12.2.2 Installer-](https://github.com/git-for-windows/git/releases/download/v2.12.2.windows.2/Git-2.12.2.2-64-bit.exe)
 - Vagrant [-Version 1.9.3 Installer-](https://releases.hashicorp.com/vagrant/1.9.3/vagrant_1.9.3.msi) or [(Alternate version downloads)](https://releases.hashicorp.com/vagrant/)
 
