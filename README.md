@@ -154,7 +154,7 @@ Since this is the first time you bring up the VM the download may take a few min
 
 ![git_step6](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/ps06.png?raw=true)
 
- 7a. Install the Cumulus Vx Image `vagrant box add CumulusCommunity/cumulus-vx --insecure`
+ 7a. Install the Cumulus Vx image with `vagrant box add CumulusCommunity/cumulus-vx --insecure --box-version=3.2.0 --provider virtualbox`
  
  7b. Now bring up the oob-mgmt-switch with `vagrant up oob-mgmt-switch`
 
