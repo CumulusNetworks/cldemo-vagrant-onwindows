@@ -15,7 +15,7 @@ This article is intended to show how to setup a simulation environment on a wind
 	- [Manage the cldemo-vagrant VMs](#manage-the-cldemo-vagrant-vms)
 		- [Connecting to the Console with the VirtualBox GUI](#connecting-to-the-console-with-the-virtualBox-gui)
 		- [Connecting to the VMs with SSH](#connecting-to-the-vms-with-ssh)
-	- [More about Vagrant](#More about Vagrant)
+	- [More about Vagrant](#more-about-vagrant)
 
 
 ## Prerequisites
