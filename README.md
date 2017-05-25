@@ -18,7 +18,7 @@ This article is intended to show how to setup a simulation environment on a wind
 	- [More about Vagrant](#More about Vagrant)
 
 
-##**Prerequisites**
+## Prerequisites
 
  - Microsoft Windows Server 2012 R2+ or Microsoft Windows 10+
  - Hyper-V must be disabled*
@@ -26,7 +26,7 @@ This article is intended to show how to setup a simulation environment on a wind
  - Approximately 5GB disk space
  - Approximately 4GB free RAM
 
-##**Tools used**
+## Tools used
 
 - VirtualBox [-Version 5.1.18 Installer-](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)  or [(Alternate version downloads)](https://www.virtualbox.org/wiki/Downloads)
 - Git [-Version 2.12.2.2 Installer-](https://github.com/git-for-windows/git/releases/download/v2.12.2.windows.2/Git-2.12.2.2-64-bit.exe)
@@ -36,10 +36,10 @@ This article is intended to show how to setup a simulation environment on a wind
 
 
 
-##**Install the tools**
+## Install the tools
 Install VirtualBox, Git, and Vagrant tools on the machine.  This will require admin privileges on the server as well as a reboot.
 
-###**Installing Virtualbox**
+### Installing Virtualbox
 
 1. After downloading Virtualbox launch the installer.
 
@@ -60,7 +60,7 @@ Install VirtualBox, Git, and Vagrant tools on the machine.  This will require ad
 VirtualBox should now be installed on the server and you can create/delete VMs on the new hypervisor.
 
 
-### **Installing Git**
+### Installing Git
 
 The git install includes the Git application but also installs a bash shell built on MINGW64 (Simiar to Cygwin) to provide Linux utilities on Windows.  It's a pretty great bash environment for Windows if you haven't used it before give it a try.  This guide however will concentrate on Windows deployments as such Powershell will be the primary method of interacting with Vagrant/Virtualbox.
 
