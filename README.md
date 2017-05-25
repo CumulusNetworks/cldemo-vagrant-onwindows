@@ -97,7 +97,7 @@ The git install includes the Git application but also installs a bash shell buil
 ![git_step8](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/git11.png?raw=true)
 
 
-### **Installing Vagrant**
+### Installing Vagrant
 
 Vagrant is the final tool that will orchestrate all the VM creation and networking.  This install will require a reboot for both Server and Desktop versions of Windows.
  
@@ -125,10 +125,10 @@ Vagrant is the final tool that will orchestrate all the VM creation and networki
 ![git_step5b](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vagrant07.png?raw=true)
 
 
-##**Setup the virtual topology**
+## Setup the virtual topology
 Time to actually do some networking, well virtual networking, OK fine it's more server stuff right now.
 
-### **Deploy the cldemo-vagrant VMs**
+### Deploy the cldemo-vagrant VMs
  1. Launch PowerShell
  2. Clone the cldemo code locally with: `git clone https://github.com/CumulusNetworks/cldemo-vagrant.git`
 
@@ -167,11 +167,11 @@ This step is very similar to step 5 in that Vagrant detects that the Cumulus VX 
 ![git_step8](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/ps08.png?raw=true)
 
 
-### **Manage the cldemo-vagrant VMs**
+### Manage the cldemo-vagrant VMs
 
 Now that we've deployed the VMs we can get to the actual networking fun.  For this we have a couple options using the VirtualBox GUI or ssh directly into the environment.
 
-####**Connecting to the Console with the VirtualBox GUI**
+#### Connecting to the Console with the VirtualBox GUI
 
  1. First thing let's start with the VirtualBox GUI which basically gives a console into each VM.  Launch the Oracle VM VirtualBox application and you should see all the VMs you created with Vagrant.
 
@@ -193,7 +193,7 @@ Now that we've deployed the VMs we can get to the actual networking fun.  For th
 
 ![git_step5](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox_gui05.png?raw=true)
 
-####**Connecting to the VMs with SSH**
+#### Connecting to the VMs with SSH
 
  1. Vagrant spins up each VM with a port forward for SSH for each VM you bring up.  To find the port number that has been created use `vagrant port oob-mgmt-server`
 
@@ -205,7 +205,7 @@ Now that we've deployed the VMs we can get to the actual networking fun.  For th
 
 ![git_step3](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/putty03.png?raw=true)
 
-###**More about Vagrant**
+### More about Vagrant
 
 https://atlas.hashicorp.com/boxes/search
 
