@@ -39,7 +39,7 @@ This article is intended to show how to setup a simulation environment on a wind
 ##**Install the tools**
 Install VirtualBox, Git, and Vagrant tools on the machine.  This will require admin privileges on the server as well as a reboot.
 
-### **Installing Virtualbox**
+###**Installing Virtualbox**
 
 1. After downloading Virtualbox launch the installer.
 
@@ -171,7 +171,7 @@ This step is very similar to step 5 in that Vagrant detects that the Cumulus VX 
 
 Now that we've deployed the VMs we can get to the actual networking fun.  For this we have a couple options using the VirtualBox GUI or ssh directly into the environment.
 
-#### **Connecting to the Console with the VirtualBox GUI**
+####**Connecting to the Console with the VirtualBox GUI**
 
  1. First thing let's start with the VirtualBox GUI which basically gives a console into each VM.  Launch the Oracle VM VirtualBox application and you should see all the VMs you created with Vagrant.
 
@@ -193,7 +193,7 @@ Now that we've deployed the VMs we can get to the actual networking fun.  For th
 
 ![git_step5](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/vbox_gui05.png?raw=true)
 
-#### **Connecting to the VMs with SSH**
+####**Connecting to the VMs with SSH**
 
  1. Vagrant spins up each VM with a port forward for SSH for each VM you bring up.  To find the port number that has been created use `vagrant port oob-mgmt-server`
 
@@ -205,7 +205,7 @@ Now that we've deployed the VMs we can get to the actual networking fun.  For th
 
 ![git_step3](https://github.com/CumulusNetworks/cldemo-vagrant-onwindows/blob/master/screenshots/putty03.png?raw=true)
 
-### **More about Vagrant**
+###**More about Vagrant**
 
 https://atlas.hashicorp.com/boxes/search
 
